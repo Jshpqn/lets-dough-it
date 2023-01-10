@@ -65,7 +65,6 @@ html, body {
 .history-container .history {
     padding-top: 5%;
 
-    display: flex;
 
     color: #696C74;
     font-weight: bolder;
@@ -75,7 +74,7 @@ html, body {
 
 .history-container .history img {
     width: 25%;
-    padding-bottom: 10px;
+    float: left;
 }
 
 .mv-container {
