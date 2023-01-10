@@ -1,0 +1,115 @@
+/* Footer */
+footer {
+    background-color: #352925;
+    color: #CAB1A9;
+
+    padding: 2px;
+    padding-bottom: 10px;
+
+    font-family: sans-serif;
+}
+
+.footer-container {
+    padding: 20px;
+    height: 225px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    padding: 20px;
+    height: 225px;
+    width: 100%;
+}
+
+.footer .name {
+    width: 150px;
+}
+
+.footer .name h3 {
+    color: #FFF;
+
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footer .name p {
+    color: #CAB1A9;
+
+    display: block;
+    padding: 2px;
+
+    font-family: sans-serif;
+}
+
+.footer .title {
+    color: #FFF;
+
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/* Visit */
+
+.footer .visit {
+    width: 150px;
+}
+
+
+.visit p {
+    color: #CAB1A9;
+}
+
+/* Explore */
+.footer .explore {
+    width: 100px;
+}
+
+.explore a {
+    color: #CAB1A9;
+
+    display: block;
+    padding: 2px;
+
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Social Media */
+.footer .follow {
+    width: 100px;
+}
+
+.follow a {
+    color: #CAB1A9;
+
+    display: block;
+    padding: 2px;
+
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Privacy */
+.footer .legal {
+    width: 100px;
+}
+
+.legal a {
+    color: #CAB1A9;
+
+    display: block;
+    padding: 2px;
+
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+}

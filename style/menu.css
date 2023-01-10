@@ -1,0 +1,169 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.nav {
+    height: 25px;
+    padding: 25px;
+    background-color: #9D8679;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav .name {
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.nav .pages a {
+    padding: 100% 10px 20px;
+    margin-left: 10px;
+    color: #FFF;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #907667;
+}
+
+.nav .pages a:hover {
+
+    color: #FFF;
+    background-color: #907667;
+}
+
+.nav .cart img{
+    width: 30px;
+}
+
+/* Content */
+.page-title {
+    color: #696C74;
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.button-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #9D8679;
+}
+
+#pizza {
+    background-color: #796255;
+}
+
+#donut {
+    background-color: #9D8679;
+}
+
+#bread {
+    background-color: #9D8679;
+}
+
+.menu-container .menu button {
+    padding: 20px 35px;
+    margin-left: 25px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+    background-color: #9D8679;
+    border: none;
+}
+
+.menu-container .menu button:hover {
+    background-color: #796255;
+}
+
+/* menu-item menu */
+.menu-item .content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 450px;
+}
+
+.menu-item .title {
+    color: #696C74;
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.menu-item .card {
+    width: 200px;
+    height: 320px;
+    padding: 10px;
+    margin: 10px;
+
+    border: #907667 1px solid;
+}
+
+.menu-item .card:hover {
+    display: block;
+    
+    background-color: #cab1a99d;
+    border: #352925 1px solid;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .add a {
+    display: none;
+
+    float: right;
+    color: #FFF;
+    background-color: #907667;
+    border-radius: 50px;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.card .info {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #3b3d42;
+}
+
+.card .add img {
+    width: 20%;
+    float: right;
+    padding-right: 13px;
+}
+
+.info .name {
+    height: 90px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .info .name {
+        height: 70px;
+    }
+}
+
