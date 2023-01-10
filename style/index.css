@@ -13,6 +13,8 @@ html, body {
 
     display: flex;
     justify-content: space-around;
+
+    position: sticky;
 }
 
 .nav .name {
@@ -87,6 +89,10 @@ html, body {
     text-align: center;
     color: #4B515C;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.title hr {
+    width: 70%;
 }
 
 .photogallery {
@@ -184,3 +190,49 @@ html, body {
     padding-top: 10%;
 }
 
+.review-container {
+    padding-top: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.review-container .review {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.review-card {
+    width: 400px;
+    height: 200px;
+    border: 2px #907667 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.review-card .name {
+    display: flex;
+}
+
+.review-card .rate {
+    display: flex;
+}
+
+.review-card .star {
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.review-card .comment {
+    text-align: left;
+}
