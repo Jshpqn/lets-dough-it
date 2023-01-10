@@ -67,9 +67,9 @@ html, body {
 
 
     color: #696C74;
-    font-weight: bolder;
+    font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .history-container .history img {
@@ -96,9 +96,9 @@ html, body {
     display: flex;
 
     color: #696C74;
-    font-weight: bolder;
+    font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
